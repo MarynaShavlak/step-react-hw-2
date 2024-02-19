@@ -1,0 +1,13 @@
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main__text {
+  padding: 20px 30px;
+  font-size: 30px;
+}
+.main__content {
+  padding: 20px 30px;
+  font-size: 26px;
+}

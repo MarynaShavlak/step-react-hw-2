@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  background-color: #fff;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  transition: background-color 0.2s ease-out 0s;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  min-width: 200px;
+}
+.button:hover {
+  background-color: rgb(97, 218, 251);
+}
+
+.button.active {
+  background-color: rgb(97, 218, 251);
+}

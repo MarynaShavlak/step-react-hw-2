@@ -1,0 +1,16 @@
+.header {
+  padding: 50px;
+}
+
+.header__title {
+  font-size: 60px;
+  color: rgb(97, 218, 251);
+  text-align: center;
+  margin: 0px;
+}
+
+.header__description {
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+}
