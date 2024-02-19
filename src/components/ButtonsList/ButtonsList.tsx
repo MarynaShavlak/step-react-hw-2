@@ -1,13 +1,8 @@
 import React, { FC } from 'react';
 import './ButtonsList.css';
-import { Button } from '../Buttons/Button';
-import { IBtn } from '../../data/buttonsData';
-
-interface IButtonsList {
-  labels: IBtn[];
-  onClick: (category: string) => void;
-  content: string;
-}
+import { Button } from '../Button/Button';
+import { IButtonsList } from './ButtonsList.types';
+import { IBtn } from '../Button/Button.types';
 
 export const ButtonsList: FC<IButtonsList> = ({ labels, onClick, content }) => {
   return (

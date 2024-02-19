@@ -1,7 +1,4 @@
-export interface IBtn {
-  id: number;
-  label: string;
-}
+import { IBtn } from '../components/Button/Button.types';
 
 export const buttonLabels: IBtn[] = [
   { id: 1, label: 'blog' },
